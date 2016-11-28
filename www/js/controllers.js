@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('mainCtrl', [])
 
 .controller('homeCtrl', function($scope) {})
 
@@ -28,10 +28,10 @@ angular.module('starter.controllers', [])
 })
 
 .controller('gpsController', ['$scope','$cordovaGeolocation','$interval',function ($scope,$cordovaGeolocation,$interval) {
-
+$scope.working = "This is working!"
     $interval(function(){
 
-        var geoSettings = {frequency: 30000, timeout: 100000,enableHighAccuracy: false};
+        var geoSettings = {frequency: 10000, timeout: 10000,enableHighAccuracy: false};
 
         var geo = $cordovaGeolocation.getCurrentPosition(geoSettings);
 
