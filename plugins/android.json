@@ -27,6 +27,10 @@
                         {
                             "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Compass\"><param name=\"android-package\" value=\"org.apache.cordova.deviceorientation.CompassListener\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -36,11 +40,11 @@
                     "/*": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-feature android:name=\"android.hardware.location.gps\" />",
@@ -68,6 +72,9 @@
             "PACKAGE_NAME": "com.ionicframework.tabdefault666336"
         },
         "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ionicframework.tabdefault666336"
+        },
+        "cordova-plugin-device-orientation": {
             "PACKAGE_NAME": "com.ionicframework.tabdefault666336"
         }
     },

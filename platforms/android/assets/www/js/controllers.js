@@ -27,7 +27,7 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('gpsController', ['$scope','$cordovaGeolocation','$interval',function ($scope,$cordovaGeolocation,$interval) {
+.controller('gpsCtrl', ['$scope','$cordovaGeolocation','$interval',function ($scope,$cordovaGeolocation,$interval) {
 
     $interval(function(){
 

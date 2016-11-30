@@ -55,7 +55,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     views: {
       'tab-gps': {
         templateUrl: 'templates/tab-gps.html',
-        controller: 'gpsController'
+        controller: 'gpsCtrl'
       }
     }
   })
