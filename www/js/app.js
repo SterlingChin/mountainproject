@@ -1,4 +1,4 @@
-angular.module('starter', ['ionic', 'mainCtrl', 'chatSvc', 'ngCordova'])
+angular.module('trail', ['ionic', 'mainCtrl', 'ngCordova'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

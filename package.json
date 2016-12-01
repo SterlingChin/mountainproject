@@ -4,6 +4,7 @@
   "description": "Tabs Default: An Ionic project",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
     "express": "^4.14.0",
     "gulp": "^3.5.6",
     "gulp-concat": "^2.2.0",

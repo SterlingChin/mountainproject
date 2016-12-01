@@ -1,1 +1,0 @@
-INSERT INTO pinsTable values ()
